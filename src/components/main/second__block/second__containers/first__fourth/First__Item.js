@@ -8,7 +8,7 @@ function First__Item() {
                 True Laptop <br />
                 Solution
               </h3>
-            </div>
+            </div>       
     );
 }
 export default First__Item;
