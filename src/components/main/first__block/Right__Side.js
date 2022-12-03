@@ -1,4 +1,4 @@
-function Right__SIde() {
+function Right__Side() {
     return (
         <div class="rigth_side">
                 <div class="iphone">
@@ -26,4 +26,4 @@ function Right__SIde() {
             </div>
     );
 }
-export default Right__SIde;
+export default Right__Side;
