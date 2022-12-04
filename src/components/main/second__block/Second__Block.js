@@ -1,4 +1,4 @@
-import Second__Containers from "./second__containers/Second__Container";
+import Second__Containers from "./second__containers/Second__Containers";
 import Text__Second from "./text__second/Text__Second";
 
 function Second__Block() {
