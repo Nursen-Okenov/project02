@@ -354,6 +354,7 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .navigation {
@@ -975,7 +976,124 @@ section {
   
   
   
+  @media screen and (max-width: 800px){
+    .navigation{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .menu__header ul{
+      flex-direction: column;
+      letter-spacing: 1px;
+      justify-content: center;
+    }
+    .menu__header li{
+      padding: 10px 200px;
+    }
+    .menu__header li:hover{
+      background-color: rgba(7, 7, 7, 0.548);
+      transition: 2s;
+    }
+    .grey{
+      flex-direction: column;
+    }
+    .containers{
+      flex-direction: column;
+    }
+    .containers .item_1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
   
+    }
+    .two_bocks img {
+      width: 500px;
+  }
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 1000px){
+     .flex_bocks .bocks{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .containers{
+      flex-direction: column;
+    }
+    .item_1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: end;
+      flex-direction: unset;
+    }
+    .flex_bocks {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .icons__header{
+      display: none;
+    }
+    .three_bokcs {
+      display: flex;
+      flex-direction: column;
+    }
+    .three_bokcs .box {
+      padding: 20px 100px
+    }
+    .two_bocks {
+      flex-wrap: wrap;
+    }
+    footer span{
+      display: none;
+    }
+    footer p{
+      display: none;
+    }
+    footer{
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 450px){
+    .left_side h2{
+      font-size: 25px;
+      text-align: center;
+      font-weight: 0;
+      margin-top: 20px;
+    }
+    .left_side{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .iphone img {
+        width: 350px;
+    }
+    .containers .item_1{
+      width: 300px;
+    }
+    .containers .item_1 img{
+      width: 250px;
+  }
+  .containers .item_4{
+    flex-direction: column;
+  }
+  .three_bokcs .box h4 {
+    text-align: center;
+    width: 200px;
+  }
+  .three_bokcs .box{
+    width: 300px;
+  }
+  .two_bocks img {
+    width: 300px;
+  }
+  }
   
   
   
