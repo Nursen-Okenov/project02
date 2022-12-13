@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
+import Slider from './components/main/first__block/Slider';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       < Header />
       < Main />
       < Footer />
+      < Slider />
     </div>
   );
 }
